@@ -72,6 +72,7 @@ Logs: `sd:/results_control_v2_log.txt` and `sd:/tag_swap_log.txt`. Send these wi
 `plugins/` holds both plugins, each its own cargo-skyline project (nightly Rust). In each plugin folder run
 `cargo skyline build --release`; the `.nro` ends up under `target/aarch64-skyline-switch/release/`. Set `const DIAG: bool = true;` in results_control_v2 for
 extra logging.
+Each plugin has its own `Cargo.toml`. Build with `cargo skyline build --release` inside the plugin folder. The results plugin's package name is `results_controlv2`, so the build produces `libresults_controlv2.nro`. The release zip ships it renamed to `libresults_control.nro`, so it replaces the older v1 plugin file instead of running next to it.
 
 ## Credits
 

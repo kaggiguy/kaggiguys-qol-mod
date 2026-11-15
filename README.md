@@ -1,4 +1,4 @@
-# Kaggiguy's Quality of Life Mod v1
+# Kaggiguy's SSBU REMATCH Quality of Life Mod v1
 
 Start-button skip, instant rematch and name tag swap for Super Smash Bros. Ultimate (Skyline plugins).
 

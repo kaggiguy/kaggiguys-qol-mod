@@ -1,0 +1,21 @@
+# Rust build output
+target/
+Cargo.lock
+
+# Built plugins (get them from the Releases page)
+*.nro
+
+# Never commit game files or keys
+*.nsp
+*.xci
+*.nca
+prod.keys
+title.keys
+*.arc
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
